@@ -23,7 +23,16 @@ public class Hw {
         System.out.println("Price " + price);
         System.out.println("Delivery Address : " + address);
 
-        System.out.println("Hello worls");
+        System.out.println("Order #" + order + " Client name : " + name);
+        System.out.println("Product name " + productName);
+        System.out.println("Price " + price);
+        System.out.println("Delivery Address : " + address);
+
+        System.out.println("Order #" + order + " Client name : " + name);
+        System.out.println("Product name " + productName);
+        System.out.println("Price " + price);
+        System.out.println("Delivery Address : " + address);
+
 
     }
 }
