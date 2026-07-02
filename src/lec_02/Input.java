@@ -1,5 +1,8 @@
 package lec_02;
 
+/**
+ * Demonstrates reading command-line arguments via the {@code args} array.
+ */
 public class Input {
     public static void main(String[] args) {
         System.out.println(args[0]); // get 1st element from in[ut parameters

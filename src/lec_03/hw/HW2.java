@@ -1,5 +1,8 @@
 package lec_03.hw;
 
+/**
+ * Prints order details for two clients using inline string concatenation.
+ */
 public class HW2 {
     public static void main(String[] args) {
         int orderNumber1 = 1;

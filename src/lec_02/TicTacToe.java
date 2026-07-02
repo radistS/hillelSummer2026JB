@@ -3,11 +3,17 @@ package lec_02;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * A simple Swing-based Tic-Tac-Toe game window.
+ */
 public class TicTacToe extends JFrame {
     private final JButton[][] buttons = new JButton[3][3];
     private final JLabel statusLabel = new JLabel("Current player: X");
     private char currentPlayer = 'X';
 
+    /**
+     * Builds and lays out the game window, including the board, status label, and new-game button.
+     */
     public TicTacToe() {
         setTitle("Tic-Tac-Toe");
         setSize(400, 450);
@@ -121,6 +127,11 @@ public class TicTacToe extends JFrame {
         statusLabel.setText("Current player: X");
     }
 
+    /**
+     * Launches the Tic-Tac-Toe window on the Swing event dispatch thread.
+     *
+     * @param args unused
+     */
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new TicTacToe().setVisible(true));
     }

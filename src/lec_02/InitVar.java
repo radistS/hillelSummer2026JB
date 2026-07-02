@@ -1,5 +1,8 @@
 package lec_02;
 
+/**
+ * Demonstrates variable declaration, initialization, and casting between primitive types.
+ */
 public class InitVar {
     public static void main(String[] args) {
         int a = 1_000_000_000;

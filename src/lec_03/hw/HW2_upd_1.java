@@ -1,5 +1,8 @@
 package lec_03.hw;
 
+/**
+ * Refactors {@link HW2} to extract a reusable {@code print} method for order details.
+ */
 public class HW2_upd_1 {
     public static void main(String[] args) {
         int orderNumber = 1;
@@ -35,6 +38,15 @@ public class HW2_upd_1 {
 
     }
 
+    /**
+     * Prints a single order's details to standard output.
+     *
+     * @param orderNumber the order number
+     * @param clientName the client's name
+     * @param productName the ordered product's name
+     * @param price the product price in EUR
+     * @param address the delivery address
+     */
     public static void print(int orderNumber, String clientName, String productName, float price, String address){
         System.out.print("Order No " + orderNumber + " ");
         System.out.println("Client: " + clientName + ".");

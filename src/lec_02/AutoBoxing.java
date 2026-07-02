@@ -1,5 +1,9 @@
 package lec_02;
 
+/**
+ * Demonstrates autoboxing/unboxing between primitives and their wrapper types,
+ * including the {@code NullPointerException} risk when unboxing a {@code null} wrapper.
+ */
 public class AutoBoxing {
     public static void main(String[] args) {
         int a = 10;

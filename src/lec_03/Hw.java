@@ -1,5 +1,8 @@
 package lec_03;
 
+/**
+ * Demonstrates text block ({@code """}) formatting and repeated string concatenation for order printouts.
+ */
 public class Hw {
 
     public static void main(String[] args) {

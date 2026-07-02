@@ -1,5 +1,9 @@
 package lec_03.task;
 
+/**
+ * Demonstrates implicit widening of {@code byte} and {@code char} to {@code int}
+ * during string concatenation with {@code +}.
+ */
 public class Task1 {
     public static void main(String[] args) {
         byte a = 100;

@@ -9,6 +9,9 @@ boolean student;
 
 Заполните их значениями и выведите информацию о пользователе.
  */
+/**
+ * Demonstrates declaring variables of several types and printing user information.
+ */
 public class T2 {
     public static void main(String[] args) {
         String name = "Oleksandr";

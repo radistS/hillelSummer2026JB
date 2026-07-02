@@ -1,5 +1,8 @@
 package lec_02;
 
+/**
+ * Demonstrates multiple top-level classes declared in a single source file.
+ */
 public class MultyClass {
     public static void main(String[] args) {
         System.out.println("MC");

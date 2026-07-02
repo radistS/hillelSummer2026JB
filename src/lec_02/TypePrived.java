@@ -1,5 +1,8 @@
 package lec_02;
 
+/**
+ * Demonstrates primitive type overflow/truncation and boxed {@link Double} arithmetic.
+ */
 public class TypePrived {
     public static void main(String[] args) {
         byte a = 120; //127

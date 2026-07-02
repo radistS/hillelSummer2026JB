@@ -5,6 +5,9 @@ package lec_02.task;
 - `short`
 - `int`
  */
+/**
+ * Prints the minimum and maximum values for {@code byte}, {@code short}, {@code char}, and {@code int}.
+ */
 public class T1 {
     public static void main(String[] args) {
         System.out.println("byte: " + Byte.MIN_VALUE + " .. " + Byte.MAX_VALUE );

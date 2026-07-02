@@ -1,5 +1,8 @@
 package lec_02;
 
+/**
+ * Demonstrates variable declaration styles: single, multiple, and {@code var} type inference.
+ */
 public class Variables {
     public static void main(String[] args) {
         int k;

@@ -1,5 +1,8 @@
 package lec_02;
 
+/**
+ * Demonstrates Java comment styles: single-line, multi-line, and Javadoc.
+ */
 public class Comments {
     /**
      * Entry point of application
