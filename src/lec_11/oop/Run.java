@@ -7,6 +7,15 @@ public class Run {
         dog.setAge(13);
         dog.setBreed("mops");
 
+
+        System.out.println(dog instanceof Dog);
+        System.out.println(dog instanceof Animal);
+
+        Animal an = dog;
+
+        System.out.println(an instanceof Cat);
+        System.out.println(an instanceof Dog);
+
         dog.eat();
 
         Cat barsik;
